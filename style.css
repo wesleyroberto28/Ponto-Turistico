@@ -1,0 +1,18 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+:root {
+   --background-default: #F5F4F0;
+   --border-primary: #d9d9d9;
+   --text-primary: #1b1b1b;
+   --text-secundary: #333333;
+   --text-tertiary: #696969;
+   --text-headline: #e1624f;
+   --accent-blue: #0c51a7;
+   --accent-orange: #e95e10;
+   --accent-pink: #e5245e;
+   --accent-purple: #591b98;
+   font-family: "Open Sans", sans-serif;
+}
