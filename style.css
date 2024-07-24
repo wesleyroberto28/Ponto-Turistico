@@ -18,7 +18,8 @@
 }
 
 body {
-  background-color: var(--background-default);;
+  background-color: var(--background-default);
+  letter-spacing: 0.1px;
 }
 
 main {
@@ -53,9 +54,10 @@ h1 {
   margin-bottom: 40px;
   font-style: italic;
   text-align: center;
+  color: var(--text-secundary)
 }
 
-div {
+.divider {
   width: 100%;
   height: 1px;
   margin: 36px 0;
@@ -65,4 +67,52 @@ div {
 h2{
   font-size: 32px;
   font-weight: bold;
+  margin-bottom: 8px;
+}
+
+.secundary div {
+  margin: 64px 0;
+}
+
+.card_travel {
+  list-style: none;
+}
+
+li + li {
+  margin-top: 48px;
+}
+
+.secundary img {
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+h3 {
+  font-size: 28px;
+  margin-bottom: 4px;
+}
+
+.blue {
+  color:var(--accent-blue);
+}
+
+.purple {
+  color: var(--accent-purple);
+}
+
+.pink{
+  color:var(--accent-pink);
+}
+
+.orange {
+  color:var(--accent-orange);
+}
+
+.center {
+  text-align: center;
+}
+
+footer {
+  text-align: center;
+  margin-bottom: 48px;
 }
